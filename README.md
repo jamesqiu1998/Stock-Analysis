@@ -14,9 +14,17 @@ After analyzing the dataset for DAQO from year 2017 and year 2018, it appears th
 ![image](https://user-images.githubusercontent.com/104419959/187312430-d9eae765-4e45-4e5a-9642-cee6ae7138b7.png)
 #### Run time
 The initial run on year 2018 took about 1.16 seconds
+
 ![VBA_Challenge_2018_Original](https://user-images.githubusercontent.com/104419959/187312700-7cddf5f0-c82c-479e-966a-4c7517e12e77.png)
+
 After refactoring, the speed of the run increased by almost 5 times, aobut 0.2 seocnds.
+
 ![VBA_Challenge_2018_Refactored](https://user-images.githubusercontent.com/104419959/187312880-611b3f3d-cde8-480d-9b69-6ac3d6f90c6d.png)
+
+
+
+
+
 The main reason for this increase of speed is how we loop the data. 
 From the old code, we used nested loops, which took time to process the inner loop and the outer loop, and then output the result. 
 ![image](https://user-images.githubusercontent.com/104419959/187313225-542912ed-7122-42c9-9f6f-a2e5392efa19.png)
